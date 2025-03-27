@@ -41,10 +41,8 @@ To install Homebrew, open Terminal and run:
 ### 💡 Why?
 
 Services like Moises and LALALA have daily limits or require subscriptions. This tool:
-
-    - Is free, offline, and utilizes existing open-source software
-    - Works great for mashups, remixes, karaoke, and production
-
+- Is free, offline, and utilizes existing open-source software
+- Works great for mashups, remixes, karaoke, and production
 Perfect if you don’t have access to stem separation in tools like Logic Pro.
 
 ---
