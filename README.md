@@ -35,3 +35,20 @@ To install Homebrew, open Terminal and run:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+---
+
+###💡 Why?
+
+Services like Moises and LALALA have daily limits or require subscriptions. This tool:
+
+    - Is free, offline, and utilizes existing open-source software
+    - Works great for mashups, remixes, karaoke, and production
+
+Perfect if you don’t have access to stem separation in tools like Logic Pro.
+
+---
+
+### 🚧 Disclaimer
+
+This tool is intended for personal and educational use only. Please respect copyright laws and the rights of original creators.
