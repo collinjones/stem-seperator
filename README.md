@@ -38,7 +38,7 @@ To install Homebrew, open Terminal and run:
 ```
 ---
 
-###💡 Why?
+### 💡 Why?
 
 Services like Moises and LALALA have daily limits or require subscriptions. This tool:
 
