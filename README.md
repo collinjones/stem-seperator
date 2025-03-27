@@ -23,19 +23,7 @@ All in just a few steps on your Mac.
 
 - macOS
 - [Docker for Mac](https://www.docker.com/products/docker-desktop)
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
----
-
-### 🧰 Installing Homebrew (if you don’t have it)
-
-Homebrew is a package manager for macOS that lets you install tools like `yt-dlp` easily.
-
-To install Homebrew, open Terminal and run:
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
 ---
 
 ### 💡 Why?
