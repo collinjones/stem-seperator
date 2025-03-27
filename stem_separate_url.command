@@ -1,5 +1,10 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+YTDLP="$SCRIPT_DIR/yt-dlp"
+
+chmod +x "$(dirname "$0")/yt-dlp"
+
 if ! docker info >/dev/null 2>&1; then
   echo "Docker is not running. Attempting to launch Docker Desktop..."
   osascript -e 'tell application "Docker" to launch' >/dev/null 2>&1
@@ -24,7 +29,7 @@ fi
 OUTPUT_FILE="downloaded_audio.mp3"
 
 osascript -e 'display dialog "Downloading audio..." buttons {"OK"} giving up after 1'
-yt-dlp -x --audio-format mp3 -o "$OUTPUT_FILE" "$URL"
+"$YTDLP" -x --audio-format mp3 -o "$OUTPUT_FILE" "$URL"
 
 if [ $? -ne 0 ]; then
   osascript -e 'display dialog "Download failed." buttons {"OK"}'
