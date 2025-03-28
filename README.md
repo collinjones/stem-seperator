@@ -20,7 +20,7 @@ All in just a few steps on your Mac.
 ## ⚙️ Requirements
 
 - macOS
-- [Docker for Mac](https://www.docker.com/products/docker-desktop)
+- [Docker for Mac](https://www.docker.com/)
 
 ---
 
