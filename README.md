@@ -28,8 +28,10 @@ All in just a few steps on your Mac.
 
 You will have to copy and paste into Terminal the following commands to remove Gatekeeper's quarantine from my program before running. 
 
-`xattr -d com.apple.quarantine yt-dlp`
-`xattr -d com.apple.quarantine seperate .command`
+```
+xattr -d com.apple.quarantine yt-dlp
+xattr -d com.apple.quarantine seperate .command
+```
 
 1. Double-click on `separate.command` and it will prompt you for a choice between Local File and YouTube URL
 2. Enter the URL or choose a file
