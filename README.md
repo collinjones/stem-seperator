@@ -36,7 +36,7 @@ Apple's Gatekeeper will stop this app from running because it isn't signed. Here
 Now, copy and paste the following command into your Terminal and run it. This will remove Gatekeeper's quarantine on my unsigned app. 
 ```bash
 xattr -d com.apple.quarantine yt-dlp
-xattr -d com.apple.quarantine seperate.command
+xattr -d com.apple.quarantine separate.command
 ```
 
 #### STEP 2. Using the app
