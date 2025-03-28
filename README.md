@@ -32,7 +32,7 @@ All in just a few steps on your Mac.
 2. Right click on the path in the 'Where' attribute and click Copy as Pathname
 3. Open 'Terminal' type `cd ` and then paste the Pathname. (e.g. `cd path/to/seperate.command`)
 
-
+Now, copy and paste the following command into your Terminal and run it. This will remove Gatekeeper's quarantine on my unsigned app. 
 ```bash
 xattr -d com.apple.quarantine yt-dlp
 xattr -d com.apple.quarantine seperate.command
