@@ -28,6 +28,7 @@ All in just a few steps on your Mac.
 
 
 #### How to Lift Quarantine
+Apple's Gatekeeper will stop this app from running because it isn't signed. This is how to get around that. 
 1. After downloading, open the folder, RIGHT CLICK on separate.command, and click Get Info
 2. Right click on the path in the 'Where' attribute and click Copy as Pathname
 3. Open 'Terminal' type `cd ` and then paste the Pathname. (e.g. `cd path/to/stem-seperator-main`)
