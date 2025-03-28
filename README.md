@@ -26,11 +26,11 @@ All in just a few steps on your Mac.
 
 ## How to use?
 
-After downloading, open the folder, RIGHT CLICK on separate.command, and click Get Info
 
-Right click on the path in the 'Where' attribute and click Copy as Pathname
-
-Open 'Terminal' type `cd ` and then paste the Pathname. (e.g. `cd path/to/seperate.command`)
+#### How to Lift Quarantine
+1. After downloading, open the folder, RIGHT CLICK on separate.command, and click Get Info
+2. Right click on the path in the 'Where' attribute and click Copy as Pathname
+3. Open 'Terminal' type `cd ` and then paste the Pathname. (e.g. `cd path/to/seperate.command`)
 
 
 ```bash
