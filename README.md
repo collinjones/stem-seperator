@@ -27,7 +27,7 @@ All in just a few steps on your Mac.
 ## How to use?
 
 
-#### How to Lift Quarantine
+#### STEP 1. Lift Quarantine
 Apple's Gatekeeper will stop this app from running because it isn't signed. This is how to get around that. 
 1. After downloading, open the folder, RIGHT CLICK on separate.command, and click Get Info
 2. Right click on the path in the 'Where' attribute and click Copy as Pathname
@@ -39,6 +39,7 @@ xattr -d com.apple.quarantine yt-dlp
 xattr -d com.apple.quarantine seperate.command
 ```
 
+#### STEP 2. Using the app
 1. Double-click on `separate.command` and it will prompt you for a choice between Local File and YouTube URL
 2. Enter the URL or choose a file
 3. Wait! The prompt may look frozen - it's just getting everything ready 
