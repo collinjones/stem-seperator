@@ -30,7 +30,7 @@ You will have to copy and paste into Terminal the following commands to remove G
 
 ```bash
 xattr -d com.apple.quarantine yt-dlp
-xattr -d com.apple.quarantine seperate .command
+xattr -d com.apple.quarantine seperate.command
 ```
 
 1. Double-click on `separate.command` and it will prompt you for a choice between Local File and YouTube URL
